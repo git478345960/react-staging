@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// StrictMode 检查APP以及子组件里面的代码不太合理的地方
 ReactDOM.render(
   <React.StrictMode>
     <App />
